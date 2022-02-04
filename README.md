@@ -1,26 +1,25 @@
+# 声明&比较
+
+这是一个从(https://github.com/JasonWei512/NetEase-Cloud-Music-UWP-Repack)Fork而来的分支，仅提供网易云一键安装脚本。部分内容被编辑以适应实际需要。
+此项目对于原Fork有如下区别：
+1、安装方式不同。本项目安装使用开发人员功能，无需安装证书；
+2、文本帮助更加详细，更适合小白（？）；
+3、就这些
+
 # 简介
 
 网易云音乐 UWP 重打包版，不会自动更新到 Win32 版。
+注意：禁用Microsoft Store的自动更新功能是必要的，否则将会自动更新并且覆盖安装。
 
 # 下载
-
-[下载地址](https://github.com/JasonWei512/NetEase-Cloud-Music-UWP-Repack/archive/refs/heads/master.zip)
-
-单独安装包：[x86 (32位)](https://github.com/JasonWei512/NetEase-Cloud-Music-UWP-Repack/raw/master/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90UWP%20%E4%B8%8D%E6%9B%B4%E6%96%B0%E7%89%88%20x86.appx) | 
-[x64 (64位)](https://github.com/JasonWei512/NetEase-Cloud-Music-UWP-Repack/raw/master/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90UWP%20%E4%B8%8D%E6%9B%B4%E6%96%B0%E7%89%88%20x64.appx) | 
-[ARM (32位)](https://github.com/JasonWei512/NetEase-Cloud-Music-UWP-Repack/raw/master/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90UWP%20%E4%B8%8D%E6%9B%B4%E6%96%B0%E7%89%88%20arm.appx)
+[一键安装脚本+安装包]()
 
 # 安装说明
 
-1. 右键点击 x86 / x64 / ARM 的 ```appx``` 安装包，点击属性，切换到"数字签名"选项卡。双击签名列表中的"esaeten"。在弹出的"数字签名详细信息"窗口中点击"查看证书"，再点击"安装证书"。
-
-2. 在"证书导入向导"中：
-
-- "存储位置"选"本地计算机"，下一步。（需要同意UAC权限请求）
-
-- 选择"将所有的证书都放入下列存储"，点击"浏览"，选择"受信任的根证书颁发机构"，确定，下一步，继续完成证书导入。
-
-3. 双击 x86 / x64 / ARM 的 ```appx``` 安装包安装。
+1. 到 设置 > 更新与安全 > 开发人员设置 中，启用开发人员模式。
+2. 解压下载的文件到桌面。
+3. 确定你的设备处理器指令集类型。打开 设置 > 系统 > 关于，查看“系统类型”；如，“64位操作系统，x64架构处理器”，则运行脚本“Install-x64.bat”。
+4. 本脚本仅在x64设备上测试。若安装了错误的架构，则脚本将自动退出。
 
 # 无法登录的解决方案
 
@@ -54,6 +53,3 @@
 
 `checknetisolation loopbackexempt -a -n="1f8b0f94.122165ae053f_kq4t7q4nstjby"`
 
-# 打包方式说明
-
-见 [该 issue](https://github.com/JasonWei512/NetEase-Cloud-Music-UWP-Repack/issues/3#issuecomment-636415035)。
