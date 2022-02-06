@@ -17,7 +17,7 @@
 注意：禁用Microsoft Store的自动更新功能是必要的，否则将会自动更新并且覆盖安装。
 
 # 下载
-[一键安装脚本+安装包]()
+[一键安装脚本+安装包](https://github.com/Maxwellads/NetEase-Cloud-Music-UWP-OneKey-NoCert/releases/download/Release/NCM-Onekey-NoCert.7z)
 
 # 安装说明
 
