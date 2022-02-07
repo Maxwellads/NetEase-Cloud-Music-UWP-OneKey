@@ -17,14 +17,16 @@
 注意：禁用Microsoft Store的自动更新功能是必要的，否则将会自动更新并且覆盖安装。
 
 # 下载
-[一键安装脚本+安装包](https://github.com/Maxwellads/NetEase-Cloud-Music-UWP-OneKey-NoCert/releases/download/Release/NCM-Onekey-NoCert.7z)
+[一键安装脚本+安装包](https://github.com/Maxwellads/NetEase-Cloud-Music-UWP-OneKey-NoCert/releases/tag/Update1.1.0)
+
+[依赖关系包（可选，但是多半需要）](https://nas.ads-network.top/index.php/s/xH6LY7n3XQetgyZ)
 
 # 安装说明
 
 1. 到 设置 > 更新与安全 > 开发人员设置 中，启用开发人员模式。
 3. 解压下载的文件到桌面。
 4. 确定你的设备处理器指令集类型。打开 设置 > 系统 > 关于，查看“系统类型”；如，“64位操作系统，x64架构处理器”，则运行脚本“Install-x64.bat”。
-5. 本脚本仅在x64设备上测试。若安装了错误的架构，则脚本将自动退出。
+5. 本脚本仅在x64设备上测试。若安装了错误的安装文件，则脚本将自动退出。
 
 # 无法登录的解决方案
 
